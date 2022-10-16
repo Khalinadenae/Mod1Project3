@@ -1,0 +1,32 @@
+.aside-img{
+    height: 150px;
+    width: 100%;
+    
+}
+
+#rounded{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
