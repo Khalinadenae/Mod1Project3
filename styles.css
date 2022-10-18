@@ -1,3 +1,9 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+/* images */
 .aside-img{
     height: 150px;
     width: 100%;
@@ -13,11 +19,7 @@
   display: block;
 }
 
-.container-fluid{
-    padding: 0;
-    margin: 0;
-}
-
+/*  nav items */
 ul{
     display: flex;
 }
@@ -32,6 +34,37 @@ a{
 }
 
 
+/* aside 1 */
+
 .aside1{
     text-align: center;
+    background-color: rgb(58, 2, 11);
+}
+
+/* aside 2 */
+
+.aside2{
+    background-color:  rgb(189, 95, 111);
+}
+/* main content */
+
+.main{
+    background-color: pink; 
+    padding: 20px;
+}
+
+
+@media  only screen and (max-width: 600px) {
+.img-fluid{
+    max-width: 50%;
+}
+
+.aside1{
+    margin-top: 20px;
+}
+
+.card-body{
+    padding:5px;
+    margin-bottom: 20px;
+}
 }
